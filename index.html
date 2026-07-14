@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Федерация Сурдо Дзюдо Казахстана</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="home-ru">
+    <header class="site-header">
+        <nav class="navbar" aria-label="Основная навигация">
+            <a class="brand" href="#hero" aria-label="Федерация Сурдо Дзюдо Казахстана">
+                <img src="img/federation-logo.png" alt="Логотип Федерации сурдо дзюдо Казахстана" class="brand-logo">
+                <span class="brand-text">Федерация Сурдо Дзюдо Казахстана</span>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+                <span class="sr-only">Открыть меню</span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-menu" id="site-menu">
+                <div class="nav-links">
+                    <a href="#about">О федерации</a>
+                    <a href="#achievements">Достижения</a>
+                    <a href="#championship">Чемпионат</a>
+                    <a href="#partners">Партнеры</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+                <div class="language-links" aria-label="Выбор языка">
+                    <a class="is-active" href="index.html" aria-current="page">RU</a>
+                    <a href="index-kz.html">KZ</a>
+                    <a href="index-en.html">EN</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="hero" aria-labelledby="hero-title">
+            <img src="img/banner.png" alt="Спортсмены Федерации Сурдо Дзюдо Казахстана" class="hero-image">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 id="hero-title">Федерация Сурдо Дзюдо Казахстана</h1>
+                <p>
+                    Республиканская федерация развивает сурдо дзюдо в Казахстане и поддерживает
+                    участие спортсменов в национальных и международных соревнованиях.
+                </p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#about">О федерации</a>
+                    <a class="button button-secondary" href="#championship">Галерея чемпионата</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about-section" id="about" aria-labelledby="about-title">
+            <div class="section-inner about-grid">
+                <div>
+                    <p class="section-label">О федерации</p>
+                    <h2 id="about-title">Сурдо дзюдо Казахстана: развитие, воспитание и спортивные вершины</h2>
+                </div>
+                <div class="about-copy">
+                    <p>
+                        Федерация Сурдо Дзюдо Казахстана создана в 2023 году. Ее приоритеты - высокие
+                        спортивные результаты на международной арене и воспитание физически крепкой,
+                        гармонично развитой молодежи.
+                    </p>
+                    <p>
+                        Федерация продолжает работу по развитию сурдо дзюдо в стране и популяризации
+                        этого вида спорта среди глухих и слабослышащих спортсменов.
+                    </p>
+                    <dl class="stats-list" aria-label="Ключевые факты федерации">
+                        <div class="stat-item">
+                            <dt>2023</dt>
+                            <dd>год основания федерации</dd>
+                        </div>
+                        <div class="stat-item">
+                            <dt>11 медалей</dt>
+                            <dd>на The 25th Summer Deaflympics Tokyo 2025</dd>
+                        </div>
+                        <div class="stat-item">
+                            <dt>16 медалей</dt>
+                            <dd>на The 10th Asia Pacific Deaf Games, Kuala Lumpur 2024</dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+        <section class="section achievements-section" id="achievements" aria-labelledby="achievements-title">
+            <div class="section-inner">
+                <div class="section-heading">
+                    <p class="section-label">Достижения</p>
+                    <h2 id="achievements-title">Ключевые достижения сборной</h2>
+                </div>
+                <div class="achievement-list">
+                    <article class="achievement-record">
+                        <div class="achievement-event">
+                            <h3>The 25th Summer Deaflympics</h3>
+                            <p>Tokyo 2025</p>
+                        </div>
+                        <ul class="medal-results" aria-label="Медальный результат">
+                            <li class="medal-result result-gold">5 золотых медалей</li>
+                            <li class="medal-result result-silver">2 серебряные медали</li>
+                            <li class="medal-result result-bronze">4 бронзовые медали</li>
+                        </ul>
+                    </article>
+                    <article class="achievement-record">
+                        <div class="achievement-event">
+                            <h3>The 10th Asia Pacific Deaf Games</h3>
+                            <p>Kuala Lumpur 2024</p>
+                        </div>
+                        <ul class="medal-results" aria-label="Медальный результат">
+                            <li class="medal-result result-gold">5 золотых медалей</li>
+                            <li class="medal-result result-silver">7 серебряных медалей</li>
+                            <li class="medal-result result-bronze">4 бронзовые медали</li>
+                        </ul>
+                    </article>
+                    <article class="achievement-record">
+                        <div class="achievement-event">
+                            <h3>World Deaf Judo Championships 2024</h3>
+                            <p>Turkestan, Kazakhstan</p>
+                        </div>
+                        <ul class="medal-results" aria-label="Медальный результат">
+                            <li class="medal-result result-gold">5 золотых медалей</li>
+                            <li class="medal-result result-silver">6 серебряных медалей</li>
+                            <li class="medal-result result-bronze">4 бронзовые медали</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section championship-section" id="championship" aria-labelledby="championship-title">
+            <div class="section-inner">
+                <div class="section-heading">
+                    <p class="section-label">Чемпионат мира</p>
+                    <h2 id="championship-title">Галерея чемпионата</h2>
+                </div>
+                <div class="championship-card-grid">
+                    <a class="gallery-card" href="moments.html">
+                        <img src="img/moments1.png" alt="Соревновательный момент чемпионата мира по дзюдо среди глухих">
+                        <span class="gallery-card-title">Моменты Чемпионата</span>
+                        <span class="gallery-card-action">Открыть галерею <span aria-hidden="true">→</span></span>
+                    </a>
+                    <a class="gallery-card" href="kata.html">
+                        <img src="img/moments2.png" alt="Выступление ката на чемпионате мира по дзюдо среди глухих">
+                        <span class="gallery-card-title">Ката</span>
+                        <span class="gallery-card-action">Открыть галерею <span aria-hidden="true">→</span></span>
+                    </a>
+                    <a class="gallery-card" href="ceremony.html">
+                        <img src="img/moments_1.jpg" alt="Церемония награждения спортсменов чемпионата">
+                        <span class="gallery-card-title">Церемония Награждения</span>
+                        <span class="gallery-card-action">Открыть галерею <span aria-hidden="true">→</span></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section partners-section" id="partners" aria-labelledby="partners-title">
+            <div class="section-inner">
+                <div class="section-heading compact">
+                    <p class="section-label">Партнеры</p>
+                    <h2 id="partners-title">Нас поддерживают</h2>
+                </div>
+                <div class="partner-card-row">
+                    <a class="modern-partner-card" href="https://sk.kz/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/samruk.png" alt="Логотип Samruk Kazyna">
+                        <span>Генеральный партнер</span>
+                    </a>
+                    <a class="modern-partner-card" href="https://sportqory.kz/ru" target="_blank" rel="noopener noreferrer">
+                        <img src="img/sportqory.png" alt="Логотип Sport Qory">
+                        <span>Партнер</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="modern-footer" id="contact">
+        <div class="footer-inner">
+            <div>
+                <strong>Федерация Сурдо Дзюдо Казахстана</strong>
+                <p>Развитие дзюдо для глухих и слабослышащих спортсменов Казахстана.</p>
+            </div>
+            <div class="footer-links" aria-label="Контактные ссылки">
+                <a href="https://www.instagram.com/kaz_deafjudoteam/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="mailto:deaf.judoteam@mail.ru" aria-label="Email">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                </a>
+            </div>
+            <p class="copyright">© 2026 Федерация Сурдо Дзюдо Казахстана. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        navToggle.addEventListener('click', () => {
+            const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
+            navToggle.setAttribute('aria-expanded', String(!isOpen));
+            navMenu.classList.toggle('is-open');
+        });
+
+        navMenu.querySelectorAll('a').forEach((link) => {
+            link.addEventListener('click', () => {
+                navToggle.setAttribute('aria-expanded', 'false');
+                navMenu.classList.remove('is-open');
+            });
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && navMenu.classList.contains('is-open')) {
+                navToggle.setAttribute('aria-expanded', 'false');
+                navMenu.classList.remove('is-open');
+                navToggle.focus();
+            }
+        });
+    </script>
+</body>
+</html>
