@@ -1,0 +1,79 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation "Основная навигация" [ref=e3]:
+      - link "Федерация Сурдо Дзюдо Казахстана" [ref=e4]:
+        - /url: index.html#hero
+        - img "Логотип Федерации сурдо дзюдо Казахстана" [ref=e5]
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link "О федерации" [ref=e9]:
+            - /url: index.html#about
+          - link "Достижения" [ref=e10]:
+            - /url: index.html#achievements
+          - link "Чемпионат" [ref=e11]:
+            - /url: index.html#championship
+          - link "Партнеры" [ref=e12]:
+            - /url: index.html#partners
+          - link "Контакты" [ref=e13]:
+            - /url: "#contact"
+        - generic "Выбор языка" [ref=e14]:
+          - link "RU" [ref=e15]:
+            - /url: moments.html
+          - link "KZ" [ref=e16]:
+            - /url: moments-kz.html
+          - link "EN" [ref=e17]:
+            - /url: moments-en.html
+  - main [ref=e18]:
+    - region [ref=e19]:
+      - generic [ref=e20]:
+        - link "← Назад к галерее чемпионата" [ref=e21]:
+          - /url: index.html#championship
+        - paragraph [ref=e22]: Чемпионат мира
+        - heading "Моменты Чемпионата" [level=1] [ref=e23]
+    - region [ref=e24]:
+      - generic [ref=e25]:
+        - heading "Моменты Чемпионата мира. День 1." [level=2] [ref=e27]
+        - generic "Слайдер фотографий первого дня чемпионата" [ref=e28]:
+          - generic [ref=e29]:
+            - img "Соревновательный момент чемпионата мира по дзюдо среди глухих, день 1" [ref=e30]
+            - img "Выступление спортсменов на чемпионате мира по дзюдо среди глухих, день 1" [ref=e31]
+            - img "Поединок на татами чемпионата мира по дзюдо среди глухих, день 1" [ref=e32]
+          - button "Предыдущая фотография" [disabled] [ref=e33]: ❮
+          - button "Следующая фотография" [ref=e34] [cursor=pointer]: ❯
+    - region [ref=e35]:
+      - generic [ref=e36]:
+        - heading "Моменты Чемпионата мира. День 2." [level=2] [ref=e38]
+        - generic "Слайдер фотографий второго дня чемпионата" [ref=e39]:
+          - generic [ref=e40]:
+            - img "Соревновательный момент чемпионата мира по дзюдо среди глухих, день 2" [ref=e41]
+            - img "Выход спортсменов на татами чемпионата мира по дзюдо среди глухих, день 2" [ref=e42]
+            - img "Фрагмент поединка чемпионата мира по дзюдо среди глухих, день 2" [ref=e43]
+          - button "Предыдущая фотография" [disabled] [ref=e44]: ❮
+          - button "Следующая фотография" [ref=e45] [cursor=pointer]: ❯
+    - region [ref=e46]:
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - paragraph [ref=e49]: Партнеры
+          - heading "Нас поддерживают" [level=2] [ref=e50]
+        - generic [ref=e51]:
+          - link "Логотип Samruk Kazyna Генеральный партнер" [ref=e52]:
+            - /url: https://sk.kz/
+            - img "Логотип Samruk Kazyna" [ref=e53]
+            - generic [ref=e54]: Генеральный партнер
+          - link "Логотип Sport Qory Партнер" [ref=e55]:
+            - /url: https://sportqory.kz/ru
+            - img "Логотип Sport Qory" [ref=e56]
+            - generic [ref=e57]: Партнер
+  - contentinfo [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - strong [ref=e61]: Федерация Сурдо Дзюдо Казахстана
+        - paragraph [ref=e62]: Развитие дзюдо для глухих и слабослышащих спортсменов Казахстана.
+      - generic "Контактные ссылки" [ref=e63]:
+        - link "Instagram" [ref=e64]:
+          - /url: https://www.instagram.com/kaz_deafjudoteam/
+          - generic [ref=e65]: 
+        - link "Email" [ref=e66]:
+          - /url: mailto:deaf.judoteam@mail.ru
+          - generic [ref=e67]: 
+      - paragraph [ref=e68]: © 2026 Федерация Сурдо Дзюдо Казахстана. Все права защищены.
